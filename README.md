@@ -99,6 +99,7 @@ OSPTEK **0.96 寸 128×64 OLED** 是一款 **I2C** 单色显示模组，驱动�
 - 技术支持 / 产品咨询：<luyu@osptek.com>
 - QQ 技术交流群：**985881096**
 - 公司官网：<https://osptek.com/>
+- 使用中如有问题，也可在本仓库 [Issues](https://github.com/osptek/0.96-oled-128x64-i2c-ssd1315/issues) 中提问
 
 ---
 

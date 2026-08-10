@@ -46,6 +46,8 @@
 
 <p align="center"><img alt="ODM096-12864W009-P4" src="./images/ODM096-12864W009-P4.png" width="320" /></p>
 
+**说明：** 模组。
+
 ---
 
 ## 如何切换分支

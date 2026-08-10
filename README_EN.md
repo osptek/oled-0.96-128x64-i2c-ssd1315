@@ -2,9 +2,9 @@
 
 <h1 align="center">OSPTEK 0.96″ OLED 128×64 (SSD1315 · I2C)</h1>
 
-<p align="center"><b>Monochrome OLED module · I2C · compact status display</b></p>
+<p align="center"><b>OLED module · I2C · SSD1315 · Multi-Version Index</b></p>
 
-<p align="center"><a href="./README.md">简体中文</a> | English</p>
+<p align="center">English | <a href="./README.md">简体中文</a></p>
 
 <p align="center">
   <img alt="Size: 0.96 inch" src="https://img.shields.io/badge/Size-0.96%22-3498DB?style=flat-square" />
@@ -13,80 +13,61 @@
   <img alt="Driver: SSD1315" src="https://img.shields.io/badge/Driver-SSD1315-E7352C?style=flat-square" />
 </p>
 
-<p align="center"><img alt="OSPTEK 0.96&quot; OLED 128×64 module (SSD1315) product image" src="./images/product.png" width="640" /></p>
-
 ## Contents
 
-- [Overview](#overview)
-- [Specifications](#specifications)
-- [Sample projects](#sample-projects)
-- [Repository layout](#repository-layout)
-- [Resources](#resources)
-- [Buy](#buy)
+- [About](#about)
+- [Versions](#versions)
+- [ODM096-12864W009-P4](#odm096-12864w009-p4)
+- [How to Switch Branches](#how-to-switch-branches)
+- [Where to Buy](#where-to-buy)
 - [Support](#support)
 
 ---
 
-## Overview
+## About
 
-OSPTEK **0.96″ 128×64 OLED** is an **I2C** monochrome display module driven by **SSD1315**. Compact wiring and size suit status bars, menu hints, debug text, and simple animations.
+This repository holds materials for the **0.96″ 128×64 OLED (I2C · SSD1315)** module family.
 
-Spec ID (repository name): `0.96-oled-128x64-i2c-ssd1315`
+**`main` is the navigation page** (repository default). Use the table below for a quick scan; click **Details** to jump to the section on this page. For a given version’s full content, switch to that **version branch** (see below).
 
-Current module version: **ODM096-12864W009-P4**. Electrical and mechanical details follow [`docs/ODM096-12864W009-P4.pdf`](./docs/ODM096-12864W009-P4.pdf).
+Repo id: `0.96-oled-128x64-i2c-ssd1315`
 
-## Specifications
+---
 
-| Item | Spec |
-| ---- | ---- |
-| Size | 0.96 inch |
-| Type | OLED (monochrome) |
-| Resolution | 128×64 |
-| Interface | I2C |
-| Driver IC | SSD1315 |
+## Versions
 
-> Full outline, pinout, power, and electrical ratings follow the product datasheet / driver IC datasheet.
+| Version | Image | Notes |
+| ------- | ----- | ----- |
+| ODM096-12864W009-P4 | <img alt="ODM096-12864W009-P4" src="./images/ODM096-12864W009-P4.png" width="120" /> | [Details](#odm096-12864w009-p4) |
 
-## Sample projects
+---
 
-| Description | Path |
-| ---- | ---- |
-| ESP32-S3 · SSD1315 I2C bringup (face animation demo) | [`examples/esp32s3-0.96-oled-128x64-i2c-ssd1315-bringup/`](./examples/esp32s3-0.96-oled-128x64-i2c-ssd1315-bringup/) |
+## ODM096-12864W009-P4
 
-## Repository layout
+<p align="center"><img alt="ODM096-12864W009-P4" src="./images/ODM096-12864W009-P4.png" width="320" /></p>
 
-```text
-0.96-oled-128x64-i2c-ssd1315/
-├── README.md
-├── README_EN.md
-├── MODULE_VERSION.md
-├── LICENSE
-├── images/          # README assets
-├── docs/            # datasheets
-└── examples/        # sample projects
-```
+**Notes:** Module.
 
-## Resources
+---
 
-### Product files
+## How to Switch Branches
 
-| Resource | Link |
-| ---- | ---- |
-| Product datasheet (ODM096-12864W009-P4) | [`docs/ODM096-12864W009-P4.pdf`](./docs/ODM096-12864W009-P4.pdf) |
+Full product materials are on each **version branch**; `main` is navigation only.
 
-### Samples
+- **Web:** open the branch dropdown at the top left of the repository page and select the branch that matches your part number.
+- **CLI:** after cloning, run `git checkout <version-branch>`; if the repo is already local, `git fetch` first, then switch.
 
-- [ESP32-S3 SSD1315 I2C bringup](./examples/esp32s3-0.96-oled-128x64-i2c-ssd1315-bringup/)
+---
 
-## Buy
+## Where to Buy
 
 <p align="center">
-  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress store" src="https://img.shields.io/badge/AliExpress-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://www.aliexpress.com/store/1105701619"><img alt="AliExpress Official Store" src="https://img.shields.io/badge/AliExpress-Official_Store-E62E04?style=for-the-badge&logo=aliexpress&logoColor=white" /></a>
   &nbsp;&nbsp;
-  <a href="https://shop110742373.taobao.com/"><img alt="Taobao store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
+  <a href="https://shop110742373.taobao.com/"><img alt="Taobao Official Store" src="https://img.shields.io/badge/Taobao-Official_Store-FF6A00?style=for-the-badge" /></a>
 </p>
 
-**Overseas (AliExpress)**
+**International (AliExpress)**
 
 - Store: [OSPTEK Official Store](https://www.aliexpress.com/store/1105701619)
 
@@ -94,13 +75,15 @@ Current module version: **ODM096-12864W009-P4**. Electrical and mechanical detai
 
 - Store: [鱼鹰光电工厂店](https://shop110742373.taobao.com/)
 
+---
+
 ## Support
 
-- Technical support / product inquiry: <luyu@osptek.com>
-- QQ group (China): **985881096**
+- Technical Support / Sales: <luyu@osptek.com>
+- QQ Technical Group: **985881096**
 - Website: <https://osptek.com/>
 - Feel free to open an Issue in this repository if you have any questions
 
 ---
 
-<p align="center"><sub>© 2026 OSPTEK · Materials in this repository are licensed under CC BY 4.0</sub></p>
+<p align="center"><sub>© 2026 OSPTEK · Licensed under CC BY 4.0</sub></p>

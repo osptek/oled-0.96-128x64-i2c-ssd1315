@@ -3,4 +3,4 @@
 cmake_minimum_required(VERSION 3.16)
 
 include($ENV{IDF_PATH}/tools/cmake/project.cmake)
-project(esp32s3-0.96-oled-128x64-i2c-ssd1315-bringup)
+project(esp32s3-oled-0.96-128x64-i2c-ssd1315-bringup)

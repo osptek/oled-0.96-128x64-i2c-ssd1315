@@ -31,7 +31,7 @@
 
 OSPTEK **0.96 寸 128×64 OLED** 是一款 **I2C** 单色显示模组，驱动芯片为 **SSD1315**。体积小、接线少，适合状态栏、菜单提示、调试信息与简单动画等显示场景。
 
-规格标识（仓库名）：`0.96-oled-128x64-i2c-ssd1315`
+规格标识（仓库名）：`oled-0.96-128x64-i2c-ssd1315`
 
 当前模组版本：**ODM096-12864W009-P4**。电气与外形细节以 [`docs/ODM096-12864W009-P4.pdf`](./docs/ODM096-12864W009-P4.pdf) 为准。
 
@@ -51,12 +51,12 @@ OSPTEK **0.96 寸 128×64 OLED** 是一款 **I2C** 单色显示模组，驱动�
 
 | 说明 | 路径 |
 | ---- | ---- |
-| ESP32-S3 · SSD1315 I2C bringup（表情动画演示） | [`examples/esp32s3-0.96-oled-128x64-i2c-ssd1315-bringup/`](./examples/esp32s3-0.96-oled-128x64-i2c-ssd1315-bringup/) |
+| ESP32-S3 · SSD1315 I2C bringup（表情动画演示） | [`examples/esp32s3-oled-0.96-128x64-i2c-ssd1315-bringup/`](./examples/esp32s3-oled-0.96-128x64-i2c-ssd1315-bringup/) |
 
 ## 仓库结构
 
 ```text
-0.96-oled-128x64-i2c-ssd1315/                                # 仓库根（导航见 ../../README.md）
+oled-0.96-128x64-i2c-ssd1315/                                # 仓库根（导航见 ../../README.md）
 └── versions/
     └── ODM096-12864W009-P4/                                # 本料号完整资料
         ├── README.md
@@ -76,7 +76,7 @@ OSPTEK **0.96 寸 128×64 OLED** 是一款 **I2C** 单色显示模组，驱动�
 
 ### 示例工程
 
-- [ESP32-S3 SSD1315 I2C bringup](./examples/esp32s3-0.96-oled-128x64-i2c-ssd1315-bringup/)
+- [ESP32-S3 SSD1315 I2C bringup](./examples/esp32s3-oled-0.96-128x64-i2c-ssd1315-bringup/)
 
 ## 购买链接
 

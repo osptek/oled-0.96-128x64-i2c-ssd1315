@@ -1,0 +1,14 @@
+id: oled-0.96-128x64-i2c-ssd1315
+category: displays
+
+size: "0.96"
+panel: oled
+resolution: 128x64
+interface: [i2c]
+shape: rect
+
+versions:
+  - id: ODM096-12864W009-P4
+    driver: SSD1315
+    touch: none
+    note: none

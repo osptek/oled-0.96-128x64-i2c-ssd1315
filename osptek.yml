@@ -6,6 +6,7 @@ panel: oled
 resolution: 128x64
 interface: [i2c]
 shape: rect
+corner: sharp
 
 versions:
   - id: ODM096-12864W009-P4
